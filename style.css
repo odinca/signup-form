@@ -1,6 +1,7 @@
 
 .main-body {
     display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .left-section {
@@ -12,20 +13,32 @@
 
 .right-section {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
 }
 
 .s1-text {
-    margin: 110px 100px 20px 20px;
+    margin: 130px 100px 20px 40px;
+    max-width: 40vw;
 }
 
 .section-1,
 .section-3 {
     height: 35vh;
+    background-color: rgb(242, 240, 240);
 }
 
 .section-2 {
     height: 30vh;
+}
+
+h2 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* RESET STYLESHEET */
