@@ -32,14 +32,58 @@
     height: 30vh;
 }
 
+label {
+  margin-top: 20px;
+  font-family:monospace
+}
+
 h2 {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.5rem;
+  margin-top: 15px;
+  margin-left: 40px;
 }
 
 .italic {
   font-style: italic;
 }
+.section-2,
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+}
+
+#col2 {
+  margin-left: 70px;
+}
+
+#col1 {
+  margin-left: 40px;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none; /* Removes browser-specific outline */
+  box-shadow: 1px 1px 5px -2px darkblue;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input {
+  width: 250px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(215, 215, 215);
+  border-width: 1px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 /* RESET STYLESHEET */
 /*
