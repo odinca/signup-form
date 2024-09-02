@@ -27,7 +27,8 @@
 
 .section-2 {
   height: 30vh;
-  box-shadow: 0px 20px black;
+  box-shadow: 0px 5px 10px rgb(109, 108, 108, .25);
+  z-index: 10; /*Brings this section to the top so that the shadow can be seen*/
 }
 
 label {
@@ -45,6 +46,8 @@ h2 {
 .italic {
   font-style: italic;
 }
+
+.section-1,
 .section-2,
 .col {
   display: flex;
