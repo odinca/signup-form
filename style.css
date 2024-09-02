@@ -73,6 +73,7 @@ input:focus {
 
 input:invalid {
   border-color: red;
+  box-shadow: none;
 }
 
 input {
