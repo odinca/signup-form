@@ -1,8 +1,5 @@
 
-.main-body {
-    display: flex;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 .left-section {
     background-image: url(./background-image.jpg);
@@ -85,9 +82,31 @@ input {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button {
-  margin-top: 15px;
+button,
+#s3-text {
+  margin-top: 30px;
   margin-left: 40px;
+}
+
+.section-3 button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(242, 240, 240);
+  background-color: #596D48;
+  padding: 10px 40px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.section-3 .login {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #596D48;
+  font-weight: bold;
+}
+
+.main-body {
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* RESET STYLESHEET */
