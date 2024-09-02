@@ -85,6 +85,10 @@ input {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+button {
+  margin-top: 15px;
+  margin-left: 40px;
+}
 
 /* RESET STYLESHEET */
 /*
