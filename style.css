@@ -3,8 +3,11 @@
   src: url(./fonts/Norse-Bold.otf);
 }
 
-
 .left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
     background-image: url(./img/background-image.jpg);
     background-size: cover;
     height: 100vh;
@@ -130,12 +133,25 @@ button,
   background-color: rgb(0, 0, 0, 0.4);
   height: 15vh;
   margin-top: calc(35vh - 15vh);
+  width: 100%;
 }
 
 .logo {
   height: 100px;
 }
 
+.left-section .footer {
+  color: white;
+  font-size: 0.7rem;
+}
+
+a:link {
+  color: white;
+}
+
+.section-3 {
+  flex-shrink: 1;
+}
 
 /* RESET STYLESHEET */
 /*
