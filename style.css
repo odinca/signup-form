@@ -23,6 +23,7 @@
 .s1-text {
     margin: 130px 100px 20px 40px;
     max-width: 40vw;
+    outline: 2px solid red;
 }
 
 .section-1,
