@@ -3,6 +3,20 @@
   src: url(./fonts/Norse-Bold.otf);
 }
 
+.section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.s1-text {
+  outline: 2px solid red;
+  margin-top: auto;
+}
+
+.s1-p2 {
+  margin-bottom: auto;
+}
+
 .left-section {
   display: flex;
   flex-direction: column;
@@ -18,12 +32,6 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-}
-
-.s1-text {
-    margin: 130px 100px 20px 40px;
-    max-width: 40vw;
-    outline: 2px solid red;
 }
 
 .section-1,
@@ -55,7 +63,6 @@ h2 {
 }
 
 .left-section,
-.section-1,
 .section-2,
 .col {
   display: flex;
