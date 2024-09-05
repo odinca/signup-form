@@ -22,16 +22,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-    background-image: url(./img/background-image.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 30%;
+  flex-shrink: 0;
+  background-image: url(./img/background-image.jpg);
+  background-size: cover;
+  height: auto;
+  width: 30%;
 }
 
 .right-section {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .section-1,
